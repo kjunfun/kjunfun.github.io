@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+} /*이건 그냥 써놓고 시작한다고 생각하자!*/
+
+header {
+    height: 100px;
+    display: flex; /*flex는 쉬운 수평요소 구성을 가능하게 해준다!*/
+    justify-content: center; /*메인축 방향으로 아이템들을 가운데 정렬*/
+    border: 5px solid black;
+}
+input {
+    border-radius: 70%;
+    font-size: 20px;
+    width: 150px;
+}
+
+#menubar {
+    background: burlywood;
+    width: 100%;
+}
+#menubar ul {
+    margin: 20px;
+    padding: 20px;
+}
+#menubar ul li {
+    display: inline-block; /*줄변경 안하게 만듬*/
+    list-style-type: none;
+    padding: 0px 50px;
+}
+
+section {
+    display: flex; /*flex는 쉬운 수평요소 구성을 가능하게 해준다!*/
+    flex-direction: row;
+}
+
+footer {
+    width: 100%;
+    height: 28px;
+    position: absolute;  
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    color: black;
+    font-size: 25px;
+}
